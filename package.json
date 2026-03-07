@@ -1,0 +1,69 @@
+{
+  "name": "@easydev/bnfn",
+  "version": "0.1.1",
+  "description": "Bun-native Axios-shaped HTTP client with a required Zig acceleration layer",
+  "author": "easydev",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/src/index.js",
+  "module": "./dist/src/index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.d.ts",
+    "dist",
+    "native/primitives.zig",
+    "scripts/bench-vs-axios.js",
+    "scripts/build-native.js",
+    "scripts/inspect-native.js",
+    "README.md",
+    "docs"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "bun": "./dist/src/index.js",
+      "default": "./dist/src/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easydev/bnfn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/easydev/bnfn/issues"
+  },
+  "homepage": "https://github.com/easydev/bnfn#readme",
+  "keywords": [
+    "axios",
+    "bun",
+    "fetch",
+    "ffi",
+    "http-client",
+    "zig"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postinstall": "node scripts/build-native.js",
+    "test": "node scripts/build-native.js && bun test",
+    "test:axios": "node scripts/build-native.js && bun test test/axios-compat.test.js",
+    "test:native": "node scripts/build-native.js && bun test test/native-primitives.test.js",
+    "test:native:ci": "node scripts/build-native.js && node scripts/run-native-stress.js --profile=ci",
+    "test:native:soak": "node scripts/build-native.js && node scripts/run-native-stress.js --profile=soak",
+    "test:types": "tsc -p tsconfig.types.json",
+    "build": "bun run scripts/build-dist.js",
+    "check": "npm test && npm run test:types && npm run build",
+    "prepack": "npm run build",
+    "bench:axios": "bun run scripts/bench-vs-axios.js",
+    "build:native": "node scripts/build-native.js",
+    "inspect:native": "node scripts/inspect-native.js"
+  },
+  "engines": {
+    "bun": ">=1.1.17"
+  },
+  "devDependencies": {
+    "axios": "^1.8.4",
+    "typescript": "^5.8.2"
+  }
+}

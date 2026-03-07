@@ -1,0 +1,17 @@
+node_modules/
+.npm-cache/
+.zig-cache/
+dist/
+dist-test/
+coverage/
+native/libbnfn_primitives.dylib
+native/libbnfn_primitives.so
+native/libbnfn_primitives.dll
+native/libbunxios_primitives.dylib
+native/libbunxios_primitives.so
+native/libbunxios_primitives.dll
+bunxios-*.tgz
+bnfn-*.tgz
+easydeploy-bnfn-*.tgz
+easydev-bnfn-*.tgz
+.DS_Store
