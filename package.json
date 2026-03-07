@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easydev/bnfn.git"
+    "url": "git+https://github.com/EasyDeployDev/bnfn.git"
   },
   "bugs": {
-    "url": "https://github.com/easydev/bnfn/issues"
+    "url": "https://github.com/EasyDeployDev/bnfn/issues"
   },
-  "homepage": "https://github.com/easydev/bnfn#readme",
+  "homepage": "https://github.com/EasyDeployDev/bnfn#readme",
   "keywords": [
     "axios",
     "bun",

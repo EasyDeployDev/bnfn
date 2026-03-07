@@ -1,10 +1,10 @@
 # Open Source Launch Checklist
 
-This repository is prepared to publish as `easydev/bnfn`. The remaining launch steps happen outside the codebase.
+This repository is prepared to publish at `EasyDeployDev/bnfn`. The remaining launch steps happen outside the codebase.
 
 ## GitHub
 
-1. Create the public repository at `easydev/bnfn`.
+1. Create the public repository at `EasyDeployDev/bnfn`.
 2. Push this directory and set `main` as the default branch.
 3. Enable GitHub Discussions and private vulnerability reporting.
 4. Turn on branch protection for `main` and require the `CI` workflow.

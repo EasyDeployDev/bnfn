@@ -1,6 +1,6 @@
 # bnfn
 
-[![CI](https://github.com/easydev/bnfn/actions/workflows/ci.yml/badge.svg)](https://github.com/easydev/bnfn/actions/workflows/ci.yml)
+[![CI](https://github.com/EasyDeployDev/bnfn/actions/workflows/ci.yml/badge.svg)](https://github.com/EasyDeployDev/bnfn/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/%40easydev%2Fbnfn)](https://www.npmjs.com/package/@easydev/bnfn)
 [![License: MIT](https://img.shields.io/badge/license-MIT-0f766e.svg)](./LICENSE)
 
@@ -141,8 +141,8 @@ The runtime source stays in JavaScript, but the package ships `index.d.ts` as it
 
 ## Community
 
-- Issues: [github.com/easydev/bnfn/issues](https://github.com/easydev/bnfn/issues)
-- Discussions: [github.com/easydev/bnfn/discussions](https://github.com/easydev/bnfn/discussions)
+- Issues: [github.com/EasyDeployDev/bnfn/issues](https://github.com/EasyDeployDev/bnfn/issues)
+- Discussions: [github.com/EasyDeployDev/bnfn/discussions](https://github.com/EasyDeployDev/bnfn/discussions)
 - Discord: add the EasyDev invite URL before public launch, then mirror it in `.github/ISSUE_TEMPLATE/config.yml`
 
 ## Contributing
