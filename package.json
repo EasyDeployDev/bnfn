@@ -57,7 +57,7 @@
     "prepack": "npm run build",
     "bench:axios": "bun run scripts/bench-vs-axios.js",
     "build:native": "node scripts/build-native.js",
-    "inspect:native": "node scripts/inspect-native.js"
+    "inspect:native": "bun scripts/inspect-native.js"
   },
   "engines": {
     "bun": ">=1.1.17"
