@@ -152,7 +152,7 @@ The runtime source stays in JavaScript, but the package ships `index.d.ts` as it
 - Website: [easydeploydev.github.io](https://easydeploydev.github.io/)
 - Issues: [github.com/EasyDeployDev/bnfn/issues](https://github.com/EasyDeployDev/bnfn/issues)
 - Discussions: [github.com/EasyDeployDev/bnfn/discussions](https://github.com/EasyDeployDev/bnfn/discussions)
-- Discord: publish the EasyDeploy invite URL on the website and here when the community server is live; until then use GitHub Discussions
+- Discord status: [easydeploydev.github.io/discord.html](https://easydeploydev.github.io/discord.html)
 
 ## Contributing
 
