@@ -3,9 +3,9 @@ contact_links:
   - name: EasyDeploy Website
     url: https://easydeploydev.github.io/
     about: Start here for organization-level links, repository entry points, and public status.
-  - name: Discord Status
-    url: https://easydeploydev.github.io/discord.html
-    about: Track the EasyDeploy Discord rollout and use the current community fallback until the invite is live.
+  - name: Discord
+    url: https://discord.gg/BFuCjbRB
+    about: Join the EasyDeploy Discord community.
   - name: GitHub Discussions
     url: https://github.com/EasyDeployDev/bnfn/discussions
     about: Use Discussions for questions, implementation ideas, and benchmark comparisons.

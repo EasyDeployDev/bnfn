@@ -19,8 +19,8 @@ This repository is prepared to publish at `EasyDeployDev/bnfn`. The remaining la
 
 1. Create the EasyDev Discord server or choose the channel that will handle community support.
 2. Generate a permanent invite URL.
-3. Until the invite exists, keep the public placeholder at `https://easydeploydev.github.io/discord.html`.
-4. Add the final invite URL to `README.md`, `.github/ISSUE_TEMPLATE/config.yml`, and the website before announcing the project publicly.
+3. Publish the invite URL in `README.md`, `.github/ISSUE_TEMPLATE/config.yml`, and the website before announcing the project publicly.
+4. Replace the invite if you rotate or revoke it.
 
 ## Recommended first release flow
 
