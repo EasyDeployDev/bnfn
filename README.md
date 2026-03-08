@@ -6,6 +6,14 @@
 
 `bnfn` is a Bun-native HTTP client with an Axios-shaped API and a required Zig acceleration layer.
 
+## EasyDeploy
+
+`bnfn` is published under the EasyDeploy organization.
+
+- Website: [easydeploydev.github.io](https://easydeploydev.github.io/)
+- Organization: [github.com/EasyDeployDev](https://github.com/EasyDeployDev)
+- Discussions: [github.com/EasyDeployDev/bnfn/discussions](https://github.com/EasyDeployDev/bnfn/discussions)
+
 It is intentionally narrow:
 
 - Bun runtime only
@@ -141,9 +149,10 @@ The runtime source stays in JavaScript, but the package ships `index.d.ts` as it
 
 ## Community
 
+- Website: [easydeploydev.github.io](https://easydeploydev.github.io/)
 - Issues: [github.com/EasyDeployDev/bnfn/issues](https://github.com/EasyDeployDev/bnfn/issues)
 - Discussions: [github.com/EasyDeployDev/bnfn/discussions](https://github.com/EasyDeployDev/bnfn/discussions)
-- Discord: publish the EasyDeploy invite URL here when the community server is live; until then use GitHub Discussions
+- Discord: publish the EasyDeploy invite URL on the website and here when the community server is live; until then use GitHub Discussions
 
 ## Contributing
 
