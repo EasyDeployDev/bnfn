@@ -152,7 +152,7 @@ The runtime source stays in JavaScript, but the package ships `index.d.ts` as it
 - Website: [easydeploydev.github.io](https://easydeploydev.github.io/)
 - Issues: [github.com/EasyDeployDev/bnfn/issues](https://github.com/EasyDeployDev/bnfn/issues)
 - Discussions: [github.com/EasyDeployDev/bnfn/discussions](https://github.com/EasyDeployDev/bnfn/discussions)
-- Discord status: [easydeploydev.github.io/discord.html](https://easydeploydev.github.io/discord.html)
+- Discord: [discord.gg/BFuCjbRB](https://discord.gg/BFuCjbRB)
 
 ## Contributing
 
